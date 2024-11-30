@@ -461,3 +461,156 @@ img {
   color: transparent;
   font-weight: bold;
 }
+
+/* -------MEDIA QUERIES-------*/
+
+@media (min-width: 768px) {
+  .project-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 5%;
+  }
+
+  .profile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hamburger-meny {
+    display: none;
+  }
+
+  .profile-logo {
+    font-size: 1.5rem;
+  }
+
+  .navigation {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  .navigation a {
+    color: var(--menu-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+  }
+
+  .profile-meny ul {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .profile-social-media {
+    margin: 0;
+  }
+  .profile-social-media ul {
+    gap: 0 2rem;
+    margin-left: 1rem;
+  }
+
+  .profile-social-media i {
+    font-size: 1.2rem;
+    background-color: var(--menu-color);
+  }
+
+  .profile-main {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .profile-text p {
+    font-size: 2.4rem;
+  }
+
+  .profile-picture > img {
+    height: 325px;
+    width: 325px;
+  }
+
+  .contact h4 .or-text {
+    font-size: 2.5rem;
+  }
+
+  .contact-info {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 989px) {
+  body {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .profile-logo {
+    font-size: 1.8rem;
+  }
+
+  .navigation a {
+    color: var(--menu-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .profile-social-media i {
+    font-size: 1.8rem;
+  }
+
+  .profile-text p {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 5%;
+  }
+
+  .profile-logo {
+    font-size: 2rem;
+  }
+
+  .navigation a {
+    color: var(--menu-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .profile-social-media i {
+    font-size: 2.3rem;
+  }
+
+  .profile-text p {
+    font-size: 3.5rem;
+  }
+
+  .profile-picture > img {
+    height: 350px;
+    width: 350px;
+  }
+
+  .contact h4 .or-text {
+    font-size: 3rem;
+  }
+
+  .contact-info {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
