@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --background-border: linear-gradient(180deg, #e70faa 0%, #00c0fd 100%);
+  --logo-color: linear-gradient(90deg, #e70faa -2.8%, #13b0f5 100%);
+  --p-color: rgba(102, 102, 102, 255);
+  --anchor-links-mobile: rgba(0, 0, 0, 255);
+  --menu-color: rgba(102, 102, 102, 1);
+  --text-color: rgb(31 36 40);
+  --highlight-color: linear-gradient(62.8deg, #00c0fd -88.73%, #e507a6 346.26%);
+  --fotter-color: linear-gradient(90deg, #f0576d, #c586fc);
+  --footer-p: rgba(167, 167, 167, 1);
+  --hamburger-meny: rgba(31, 36, 40, 255);
+  --border-color: rgba(224, 224, 224, 255);
+  --p-light-color: rgba(167, 167, 167, 1);
+  --btn-background: rgba(215, 255, 224, 1);
+  --btn-text: rgba(1, 140, 15, 1);
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
+  --contact-color: linear-gradient(90deg, #13b0f5 0%, #e70faa 100%);
+}
