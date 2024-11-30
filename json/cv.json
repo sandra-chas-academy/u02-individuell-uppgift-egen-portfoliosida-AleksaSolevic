@@ -1,0 +1,48 @@
+{
+  "workExperiences": [
+    {
+      "title": "Professional basketball player",
+      "company_name": "Umeå basket",
+      "location": " Umeå, Sweden",
+      "employment_type": "full-time",
+      "employment_length": "2021-2022"
+    },
+    {
+      "title": "Professional basketball player",
+      "company_name": "Kralovsti sokoli",
+      "location": " Hradec Kralove, Czech Republic",
+      "employment_type": "full-time",
+      "employment_length": "2022-2023"
+    },
+    {
+      "title": "Professional basketball player",
+      "company_name": "Fryshuset basket",
+      "location": " Stockholm, Sweden",
+      "employment_type": "full-time",
+      "employment_length": "2023-Present"
+    }
+  ],
+  "educationExperiences": [
+    {
+      "program": "Print technician",
+      "school_name": " Chemical technological school",
+      "location": " Krusevac, Serbia",
+      "education_type": "full-time",
+      "education_length": "2008-2012"
+    },
+    {
+      "program": "Basketball coach",
+      "school_name": " Swedish basketball Federation",
+      "location": " Stockholm, Sweden",
+      "education_type": "part-time",
+      "education_length": "2020-2021"
+    },
+    {
+      "program": "Fullstack JS developer",
+      "school_name": " Chas Academy",
+      "location": " Stockholm, Sweden",
+      "education_type": "full-time",
+      "education_length": "2024-Present"
+    }
+  ]
+}
