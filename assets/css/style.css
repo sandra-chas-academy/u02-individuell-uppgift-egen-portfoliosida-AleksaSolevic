@@ -436,3 +436,28 @@ img {
   text-align: center;
   margin: 10px 0;
 }
+/*Footer section*/
+
+.profile-footer {
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+}
+
+.profile-footer p {
+  font-size: 0.9rem;
+  color: var(--footer-p);
+}
+
+.profile-footer .name {
+  font-weight: 1000;
+}
+
+.profile-footer .love,
+.profile-footer .coffee {
+  background: var(--fotter-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
