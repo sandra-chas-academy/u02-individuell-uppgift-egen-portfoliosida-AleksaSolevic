@@ -1,77 +1,125 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y0f03qEq)
-# Instruktioner
+## Live site
+You can view the live deployed portfolio here:
 
-Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
+## Name
 
-## Vad du ska göra
+- Aleksa Solevic
 
-Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
+AleSol Portfolio Webbplats
+Välkommen till AleSol portfolio webbplats. Den här webbplatsen visar upp mina färdigheter inom webbutveckling.
 
-### CV i en fil:
-Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
+## Översikt
 
+Webbplatsen är utformad för att presentera min portfolio sida.
 
-### Interaktiva scripts:
-Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
+- Home: En introduktion om vem jag är och vad jag gör.
+- About me: Information om bakgrund och erfarenhet.
+- Project: En presentation av projekt med beskrivningar och länkar till dem.
+- Contact: Kontaktuppgifter som e-post och telefon, och länkar till sociala medier (LinkedIn, GitHub, Twitter).
 
-### Portfolio:
- Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
+## Funktioner
 
-### 👉  VG-krav
+- Responsiv design: Webbplatsen anpassar sig efter olika skärmstorlekar och fungerar smidigt på mobiler, surfplattor och datorer.
+- Enkla menyer för navigation mellan sidor.
+- Projektportfolio: Detaljerad presentation av olika projekt, med länkar till både live-demo och GitHub.
+- Sociala medier-integration: Lätt åtkomst till sociala profiler via klickbara ikoner.
+- Modalfönster: Ett modal för att visa mer informationer om mina intresse.
+- Dynamisk content hantering: Arbetsefarenheter och utbildningar uppdateras dynamisk från separat json-fil.
+- Animerat Interaktion: Sektion som kan öppnas och stängs genom användarens klick.
 
-Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
+## Teknologier
 
-Du får gärna ha både dessa projekt och andra som genereras utifrån JSON-data om du känner för det, eller så ersätter du projekten så det bara är dina Github-projekt. Eventuellt kan du behöva komplettera datan från Github API med t.ex bilder ifrån JSON-datan.
+- HTML: För att strukturera innehållet.
+- CSS: För stil och layout, inklusive responsiv design.
+- Google fonts: För att lägga till externa font-families.
+- Font Awesome: För att lägga till ikoner.
+- Media Queries: För att säkerställa att webbplatsen fungerar bra på alla skärmstorlekar.
+- Javascript för att lägga funktionalitet på about sida.
+- JSON fil för att hämta och visa data i CV sektion.
 
-När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
+## Fördelar
 
+1. Enkel och tydlig design: Layouten är enkel och lätt att förstå, med fokus på innehållet.
+2. Responsiv design: Webbplatsen fungerar bra på alla enheter, oavsett skärmstorlek.
+3. Lätt att hitta sociala länkar: Det är enkelt att hitta och besöka sociala profiler via ikoner.
+4. Semantisk HTML: Hjälper sökmotorer och skärmläsare att förstå innehållet bättre.
+5. Interaktivitet: Modal och klickbar sektion skapar en interaktiv upplevelse.
 
+## Nackdelar
 
-### Tekniska krav:
-* Validerad med 0 fel på https://validator.w3.org
-* Inga errors i Console
-
-### Sammantfattning av projekt + teoretiska frågor
-
-1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
-2. Du svarar på dessa frågor (max 800 ord):
-
-Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
-
-
-## Kriterier för bedömning
-
-
-Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
-
-### Godkänd (G)
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
-Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
-Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
-
-
-### Väl Godkänd (VG)
-
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
-Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
-Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt märks eller påverkar slutresultatet
+1. Begränsat innehåll: Vissa områden, som "Arbetslivserfarenhet" och kontakt info t.ex. innehåller inga riktiga informationer. Dessa kan uppdateras med verklig information.
+2. Datahantering: Data hanteras just nu via en JSON-fil utan back-end integration.
+3. Tillgänglighet: Tillgängligheten kan förbättras ytterligare genom att säkerställa rätt färgkontrast och alt-texter för bilder.
+4. Enkel design: Designen är funktionell men saknar avancerade animationer för att skapa mer engagerande sida. 
 
 
-### Börja uppgift / Din inlämning
-* Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
-* Återkoppling ges i Canvas
+## Framtida förbättringar
+
+- Lägga till flera projekt på projekt sida.
+- Lägga till flera arbetsefarenheter i CV.
+- Uppdatera kontakt sida
+- Lägga till verkliga sociala medier
+- SEO-optimering: Implementera flera meta taggar för ännu bättre synlighet på sökmotorer.
+- Avancerade Animationer: Lägga till flera interaktiva animationer för en bättre upplevelse.
 
 
+### Teoretiska frågor
+
+## 1. Vad kan man utveckla m.h.a av Javascript inom frontend?
+Med hjälp av JavaScript kan man utveckla mycket inom frontend. Nästan alla webbsidor och applikationer är skapade med Javascript speciellt de interaktiva och dynamiska webbsidor. Här är några saker man kan skapa med JS.
+
+1. Dynamiska använradgränssnitt:
+  - Interaktiva funktioner: Man kan skapa många interaktiva funktioner som tex. klickbara knappar, dropdown-menyer, och formulär som reagerar på användarens inmatning.
+
+  - Animationer och övergångar: Animations som popup fönster, hover effekter eller slideshow kan man skapa med JS för bättre användarupplevelse.
+
+  - Responsiva webbaplikationer:
+    Javascript kan också eller ofta kombineras med olika ramverk som React, Angular eller Vue för att skapa moderna webbaplikationer som är anpassningsbara. Till example, dynamisk uppdatering av innehåll på en sida i realtid utan att användaren märker några laddningstider.
+
+2. Funktioner i realtid: Med JavaScript kan man skapa funktioner som gör det möjligt för uppdateringar att vara i realtid, några exempel är chattappar eller en live-uppdatering på en sportwebbsida.
+
+3. Hantera data på användarens sida: Hämta data från olika API:er  med hjälp av  fetch eller bibliotek som axios läsa den, bearbeta hämtade data och presentera genom att uppdatera DOM.
+
+4. Utveckla spel:Javascript är ett kraftfull språk när det kommer till spelutveckling  speciellt för webbläsare. I kombination med HTML och CSS kan man skapa enklare spel som Quiz, Hangman, Tic-tac-toe osv. men också mer avancerade 3D spel och real-tidsspel som pusselspel och schack.
+
+5. Anpassade upplevelser: Anpassa webbsidan baserat på användarens beteende för att skapa mer engagerande upplevelse , som att visa innehåll eller teman beroende på tid, plats eller preferenser av användaren.
+
+6. Anslutning till externa plattformar: För att spara tid och inte bygga allt från grunder, JavaScript möjliggör integration med  betalningssystem och sociala medieplattformar samt karttjänster som förbättrar användarupplevelse och effektivitet.	
+
+7. Dynamiska formulär:
+   - Validering: Formulär realtidsvalidering, kontrolerar att e-mail eller lösenord matchar t.ex.
+   - Dynamiska fält: Lägg till eller ta bort formulärfält dynamiskt beroende på användarens inmatning.
+   - Filuppladdning: Förhandsvisa uppladdade bilder eller dokument direkt.
+   
+
+## 2. Vad är JSON och hur används det inom frontend?
 
 
+JSON står för ”Javascript Object Notation” som är ett textbaserat format och används för att lagra och skicka information mellan frontend och backend samt presentera  data på en webbsida. Det är ett enkeltanvänt format som är lätt att läsa och skriva för både människor och datorer samt funkar bra med olika programmeringsspråk. Inom Frontend används den mest för att läsa och visa data från en JSON fil på en webbsida.
+
+1. Vad används JSON till?
+   - JSON används för att skicka data mellan servern och webbsida. Ett exempel kan vara ”User data”, där man lagrar informationer om users(namn, efternamn osv.). Ett annat exempel kan vara produktkatalog(namn, pris, lagerstatus osv.).
+
+2. Hur används det i frontend?
+   - Inom frontend används JSON som en bro mellan klient och server. Främst för att ta hämta och presentera data från servern. Många e-handelwebbplatser använder JSON för sina produktlistor där de också möjliggör dynamiska uppdateringar av listor beroende på användarens beteende.
+
+3. Varför är JSON bra?
+   - Det är väldigt användbar eftersom det är enkelt att förstå och skriva samt det fungerar bra på alla plattformar. JSON blev populärt inom utveckling eftersom det funkar med många programmerings språk speciellt Javascript.
 
 
+## 3. Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
+HTTP står för HyperText Protocol och är system som med hjälp av internet används för att överföra data mellan servern och webbläsare. Det är viktigt att förstå eftersom det är grunden som möjliggör kommunikation och datautbyte mellan en server och webbläsare.
 
+1. Hur fungerar HTTP?
+Den fungerar på så sätt när man går på en webbsida och webbläsaren skickar förfrågan till servern med en specifik HTTP-metod. Genom headers(metadata) förklaras till servern vad vill användaren ha skickar servern tillbaka svaret(response) tex. en bild, text eller video.
 
+2. Varför är HTTP viktigt för frontendutvecklare?
+Det är viktigt att förstå hur HTTP funkar och veta hur kan en utvecklare kommunicera med servern och hämta eller skicka data fram och tillbaka. Ett exempel kan vara när man fyller ett formulär, för användaren svaret från servern.
 
+3. Vad bör man känna till om HTTP?
+   - Statuskoder: Dom är där att visa status på användarens förfråga. Ett exempel som många känner är ”404” när sidan inte kan hittas.
+   - Säkerhet: HTTPS! Är en säkrare och pålitligare version av HTTP som säkerställer att data (känsliga informationer)är krypterade och skyddade samt brukar ofta ha bättre SEO ranking.
+   - HTTP metoder:  Dom anger var klienten vill göra med en resurs. Det finns olika metoder och några av dom är GET, POST, PUT och DELETE.
+   - Prestanda: För att göra webbsidor snabbare kan HTTP optimeras.
 
-# 
